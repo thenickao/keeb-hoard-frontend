@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "cool";
+    src: url("./coolvetica\ rg.otf");
+}
+.App {
+    /* text-align: center; */
+    background-color: #303030;
+    min-height: 100vh;
+    color: rgb(220, 220, 220);
+    font-family: cool;
+    font-size:x-large;;
+    margin-bottom: 50px;
+}  
+.container {
+    margin-top: 50px;
+    border: 4px solid rgb(220, 220, 220);
+    padding: 20px;
+}
+.form {
+    margin:auto;
+    width: 80%;
+}
+.loading {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    font-size: xx-large;
+}
+
+/* Navigation Bar */
+.logo-img {
+    width: 2em;
+    height: auto;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    display: none;
+}
+.navbar-nav .nav-item .nav-link, .dropdown-item {
+    color: black;
+    transition: color 1s;
+    transition: background-color 1s;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover, .dropdown-item:hover {
+    color:rgb(220, 220, 220);
+    background-color: #303030;
+  }
+
+/* Submit Links/Rerouting */
+.btn-primary {
+    color:black;
+    background-color:rgb(220, 220, 220);
+    outline-color: rgb(220, 220, 220);
+    border-color:#303030;
+    transition: color 1s;
+    transition: background-color 1s;
+}
+.btn-primary:hover {
+    color:rgb(220, 220, 220);
+    background-color:#303030;
+    outline-color:#303030;
+    border-color:rgb(220, 220, 220);
+}
+.reroute {
+    color: rgb(220, 220, 220);
+    font-weight: bolder;
+    transition: color 1s;
+    transition: background-color 1s;
+}
+.reroute:hover {
+    color:#303030;
+    background-color: rgb(220, 220, 220);
+    font-weight: bolder;
+}
+.info-btn {
+    color:black;
+    background-color:rgb(220, 220, 220);
+    border-color:rgb(220, 220, 220);
+    border-radius: 7px;
+    font-size:large;
+    transition: color 1s;
+    transition: background-color 1s;
+}
+.info-btn:hover {
+    color:rgb(220, 220, 220);
+    background-color:#303030;
+    border-color:rgb(220, 220, 220);
+    font-size:large;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+}
+.footer .navbar-nav {
+    padding-right: 10px;
+    transition: color 1s;
+    transition: background-color 1s;
+}
+.footer .nav-link:hover {
+    color: rgb(220, 220, 220);
+    background-color: #303030;
+}
+
+/* Form */
+.form-control {
+    width: 50%;
+    /* margin: 0 auto;  */
+}
+
+/* Keyboard */
+.keyboard-item a {
+    color:rgb(220, 220, 220);
+    transition: color 1s;
+    transition: background-color 1s;
+}
+.keyboard-item a:hover {
+    color:#303030;
+    background-color: rgb(220, 220, 220);
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Switch */
+.switch-item a {
+    color:rgb(220, 220, 220);
+    transition: color 1s;
+    transition: background-color 1s;
+}
+.switch-item a:hover {
+    color:#303030;
+    background-color: rgb(220, 220, 220);
+}
+
+/* Stabilizer */
+.stabilizer-item a {
+    color:rgb(220, 220, 220);
+    transition: color 1s;
+    transition: background-color 1s;
+}
+.stabilizer-item a:hover {
+    color:#303030;
+    background-color: rgb(220, 220, 220);
+}
+
+/* Keycap */
+.keycap-item a {
+    color:rgb(220, 220, 220);
+    transition: color 1s;
+    transition: background-color 1s;
+}
+.keycap-item a:hover {
+    color:#303030;
+    background-color: rgb(220, 220, 220);
+}
